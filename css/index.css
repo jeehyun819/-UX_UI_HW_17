@@ -1,0 +1,132 @@
+body {
+  padding-left: 250px;
+  padding-right: 250px;
+}
+
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  width: 104.53px;
+  height: 50.19px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  width: 268px;
+}
+
+.nav li {
+  display: inline-block;
+  font-size: 20px;
+  font-family: 'Rubik', sans-serif;
+  text-align: center;
+}
+
+.memoji {
+  display: flex;
+  align-items: flex-end;
+  height: 451px;
+
+}
+
+.memoji img {
+  width: 280px;
+  height: 240px;
+  margin-bottom: 30px;
+  margin-left: -70px;
+}
+
+.hello {
+  font-family: 'Playfair Display', serif;
+  font-size: 64px;
+  font-weight: 900;
+}
+
+.designer {
+  font-family: 'Playfair Display', serif;
+  font-size: 45px;
+  font-weight: lighter;
+  line-height: 75px;
+}
+
+#hero {
+  height: 84.4%;
+}
+
+.selectedWork {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 169px;
+  color: #c4c4c4;
+}
+
+.text {
+  font-family: 'Rubik', sans-serif;
+  font-size: 18px;
+}
+
+.downArrow {
+  padding-top: 12px;
+  padding-bottom: 35px;
+}
+
+.first, .second {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#work {
+  background: white;
+  width: auto;
+}
+
+.thumbnail img{
+  padding: 10px;
+  width: 48%;
+  height: 48%;
+  justify-content: center;
+}
+
+#footer {
+  font-family: 'Rubik', sans-serif;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.line {
+  padding-top: 400px;
+  padding-right: 250px;
+  padding-left: 250px;
+  padding-bottom: 0px;
+  border-bottom: 2px solid #dadada;
+}
+
+.copyRight {
+  display: flex;
+  align-items: center;
+}
+
+.contect {
+  display: flex;
+  justify-content: space-between;
+  width: 365px;
+}
+
+.contect li {
+  display: inline-block;
+  font-size: 20px;
+  font-family: 'Rubik', sans-serif;
+  text-align: center;
+}
