@@ -1,17 +1,19 @@
 body {
-  padding-left: 250px;
-  padding-right: 250px;
+  padding-left: 13vw;
+  padding-right: 13vw;
 }
 
 #header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  height: 7vh;
 }
 
 .logo img {
   width: 104.53px;
   height: 50.19px;
+  cursor: pointer;
 }
 
 .nav {
@@ -25,37 +27,34 @@ body {
   font-size: 20px;
   font-family: 'Rubik', sans-serif;
   text-align: center;
+  cursor: pointer;
 }
 
 .memoji {
-  display: flex;
-  align-items: flex-end;
-  height: 451px;
-
+  margin-top: 10%;
 }
 
 .memoji img {
-  width: 280px;
-  height: 240px;
+  width: 260px;
+  height: 220px;
   margin-bottom: 30px;
   margin-left: -70px;
 }
 
 .hello {
   font-family: 'Playfair Display', serif;
-  font-size: 64px;
+  font-size: 55px;
   font-weight: 900;
+  margin-top: 0.5%;
 }
 
 .designer {
   font-family: 'Playfair Display', serif;
-  font-size: 45px;
+  font-size: 40px;
   font-weight: lighter;
-  line-height: 75px;
-}
-
-#hero {
-  height: 84.4%;
+  color: #424242;
+  line-height: 65px;
+  margin-top: 1.8%;
 }
 
 .selectedWork {
@@ -63,8 +62,9 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-top: 169px;
+  padding-top: 10%;
   color: #c4c4c4;
+  cursor: pointer;
 }
 
 .text {
@@ -86,14 +86,21 @@ body {
 
 #work {
   background: white;
-  width: auto;
+  height: 57%;
 }
 
-.thumbnail img{
-  padding: 10px;
-  width: 48%;
-  height: 48%;
+.thumbnail {
+  padding-top: 13%;
+  padding-bottom: 20%;
+}
+
+.thumbnail img {
+  padding: 0.7%;
+  width: 49%;
+  height: 49%;
   justify-content: center;
+  align-items: center;
+  cursor: pointer;
 }
 
 #footer {
@@ -102,13 +109,11 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  height: 5%;
   padding: 20px;
 }
 
 .line {
-  padding-top: 400px;
-  padding-right: 250px;
-  padding-left: 250px;
   padding-bottom: 0px;
   border-bottom: 2px solid #dadada;
 }
@@ -129,4 +134,5 @@ body {
   font-size: 20px;
   font-family: 'Rubik', sans-serif;
   text-align: center;
+  cursor: pointer;
 }
