@@ -1,6 +1,7 @@
 body {
   padding-left: 13vw;
   padding-right: 13vw;
+  background-color: #FCFCFF;
 }
 
 #header {
@@ -11,15 +12,12 @@ body {
 }
 
 .logo img {
-  width: 104.53px;
-  height: 50.19px;
   cursor: pointer;
 }
 
 .nav {
   display: flex;
   justify-content: space-between;
-  width: 268px;
 }
 
 .nav li {
@@ -28,41 +26,40 @@ body {
   font-family: 'Rubik', sans-serif;
   text-align: center;
   cursor: pointer;
+  margin-left: 2vw;
 }
 
 .memoji {
-  margin-top: 10%;
+  padding-top: 14vmin;
+  background-color: #FCFCFF;
 }
 
 .memoji img {
-  width: 260px;
-  height: 220px;
-  margin-bottom: 30px;
   margin-left: -70px;
 }
 
 .hello {
   font-family: 'Playfair Display', serif;
-  font-size: 55px;
+  font-size: 52px;
   font-weight: 900;
-  margin-top: 0.5%;
+  padding-top: 3vh;
 }
 
 .designer {
   font-family: 'Playfair Display', serif;
-  font-size: 40px;
+  font-size: 38px;
   font-weight: lighter;
-  color: #424242;
+  color: #464646;
   line-height: 65px;
-  margin-top: 1.8%;
+  padding-top: 2.8vh;
 }
 
 .selectedWork {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
-  padding-top: 10%;
+  padding: 18vh;
   color: #c4c4c4;
   cursor: pointer;
 }
@@ -73,44 +70,62 @@ body {
 }
 
 .downArrow {
-  padding-top: 12px;
-  padding-bottom: 35px;
+  padding-top: 1.11vh;
 }
 
-.first, .second {
-  display: flex;
-  flex-direction: row;
+#workGrid {
+  display: grid;
+  grid-template-rows: 40vh 40vh;
+  grid-template-columns: 36vw 36vw;
+  grid-template-areas:
+  "travalert csa"
+  "oneforall pact";
   justify-content: center;
-  align-items: center;
+  padding-bottom: 25vh;
 }
 
-#work {
-  background: white;
-  height: 57%;
+#travalert {
+  grid-area: travalert;
+  background-image: url("../images/TravAlert.png");
+  border-radius: 6px;
 }
 
-.thumbnail {
-  padding-top: 13%;
-  padding-bottom: 20%;
+#csa {
+  grid-area: csa;
+  background-image: url("../images/CSA.png");
+  border-radius: 6px;
 }
 
-.thumbnail img {
-  padding: 0.7%;
-  width: 49%;
-  height: 49%;
-  justify-content: center;
-  align-items: center;
+#oneforall {
+  grid-area: oneforall;
+  background-image: url("../images/OneforAll.png");
+  border-radius: 6px;
+}
+
+#pact {
+  grid-area: pact;
+  background-image: url("../images/PACT.png");
+  border-radius: 6px;
+}
+
+.workGridArea {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0.35vw;
   cursor: pointer;
+  display: grid;
+  align-content: end;
 }
 
 #footer {
+  display: flex;
   font-family: 'Rubik', sans-serif;
   font-size: 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 5%;
-  padding: 20px;
+  padding: 1.85vh;
 }
 
 .line {
@@ -118,15 +133,9 @@ body {
   border-bottom: 2px solid #dadada;
 }
 
-.copyRight {
-  display: flex;
-  align-items: center;
-}
-
 .contect {
   display: flex;
   justify-content: space-between;
-  width: 365px;
 }
 
 .contect li {
@@ -135,4 +144,5 @@ body {
   font-family: 'Rubik', sans-serif;
   text-align: center;
   cursor: pointer;
+  margin-left: 3vw;
 }
