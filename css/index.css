@@ -75,8 +75,8 @@ body {
 
 #workGrid {
   display: grid;
-  grid-template-rows: 40vh 40vh;
-  grid-template-columns: 36vw 36vw;
+  grid-template-rows: 44vh 44vh;
+  grid-template-columns: 37vw 37vw;
   grid-template-areas:
   "travalert csa"
   "oneforall pact";
@@ -125,7 +125,8 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1.85vh;
+  padding-top: 1.85vh;
+  padding-bottom: 1.85vh;
 }
 
 .line {
